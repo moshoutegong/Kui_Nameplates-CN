@@ -1,5 +1,5 @@
 ## Interface: 30300
-## Author: Kesava
+## Author: Kesava、汉化优化&整合：B站魔兽特工
 ## Title: Kui |cff9966ffNameplates|r
 ## Version: 264
 ## Notes: Prettier nameplates.

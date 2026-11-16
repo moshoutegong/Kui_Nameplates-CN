@@ -1,0 +1,32 @@
+## Interface: 30300
+## Author: Kesava
+## Title: Kui |cff9966ffNameplates|r
+## Version: 264
+## Notes: Prettier nameplates.
+## OptionalDeps: !ClassColors
+## SavedVariables: KuiNameplatesGDB
+## X-Curse-Packaged-Version: 262
+## X-Curse-Project-Name: KuiNameplates
+## X-Curse-Project-ID: kuinameplates
+## X-Website: https://github.com/bkader/KuiNameplates-WoTLK
+## X-Email: bkader@email.com
+## X-Date: 2022-01-01 @ 01:10 PM |cff808080UTC|r
+
+Embeds.xml
+Locales.xml
+
+## CoA patches ##
+# Mirror RAID_CLASS_COLORS into CUSTOM_CLASS_COLORS for the 22 CoA
+# class tokens before any module captures cc_table. Loaded after
+# Embeds (defensive — this file uses no libs) and before Core/Modules
+# so ClassColours.lua:90 sees the populated CCC at OnInitialize time.
+CoAClassColors.lua
+
+# CoA class/spec metadata: defines CoAClassSpec keyed by class token
+# (2nd return of UnitClass). Must load before TankMode.lua so that
+# GetPlayerCoARole() can look up spec roles at OnEnable time.
+CoAClassSpecData.lua
+
+PersonalDefaults.lua
+Core.xml
+Modules.xml

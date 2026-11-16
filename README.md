@@ -34,6 +34,20 @@
 
 ![纳迦探险者名字旁的袋子图标](docs/screenshots/quest-objective.png)
 
+## 设置界面
+
+**常规显示**
+
+![Kui Nameplates 常规显示设置](docs/screenshots/settings-general.png)
+
+**任务目标**
+
+![任务目标图标的显示、位置和缩放设置](docs/screenshots/settings-quest-objectives.png)
+
+**光环设置**
+
+![光环显示、计时和图标位置设置](docs/screenshots/settings-auras.png)
+
 ## 致谢
 
 Kui Nameplates 原作者为 Kesava，3.3.5 版本由 Kader 移植。本项目基于 [KuiNameplates-WoTLK](https://github.com/bkader/KuiNameplates-WoTLK) 做简体中文与飞升客户端适配。
